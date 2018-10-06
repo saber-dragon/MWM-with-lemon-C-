@@ -29,7 +29,7 @@ int main(){
     typedef Graph::EdgeMap<double> WeightMap; // map each edge to a double number
     typedef lemon::MaxWeightedMatching<Graph, WeightMap> MaxWeightedMatching;
 
-    /* Step 1. create the graph */
+        /* Step 1. create the graph */
         Graph g;
         /* 1.1 Add nodes to the graph */
         vector<Node> L; // vertex set L
